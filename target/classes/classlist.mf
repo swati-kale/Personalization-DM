@@ -1,0 +1,5 @@
+com.eventAnalysis
+com.TrainingModel
+com.CustomerProfile
+com.Event
+com.Main
