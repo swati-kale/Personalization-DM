@@ -8,10 +8,10 @@ public class TrainingModel implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "ModelName")
+	@org.kie.api.definition.type.Label("modelName")
 	private java.lang.String modelName;
-	@org.kie.api.definition.type.Label(value = "Confidence")
-	private java.lang.Integer confidence;
+	@org.kie.api.definition.type.Label("confidence")
+	private Integer confidence;
 
 	public TrainingModel() {
 	}

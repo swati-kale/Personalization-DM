@@ -160,7 +160,7 @@
   <imports>
     <imports/>
   </imports>
-  <packageName>com</packageName>
+  <packageName></packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
@@ -203,7 +203,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Possible Late Payment Waiver</valueString>
+        <valueString>Late Payment Waiver</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -247,7 +247,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Possible Premium Card Upgrade</valueString>
+        <valueString>Premium Card Upgrade</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -291,7 +291,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Possible Balance Transfer offer</valueString>
+        <valueString>Balance Transfer offer</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -379,7 +379,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Possible late payment because of failed attempt, broadcast to all channels</valueString>
+        <valueString>Late payment because of failed attempt, broadcast to all channels</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

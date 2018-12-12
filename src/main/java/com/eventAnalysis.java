@@ -8,9 +8,9 @@ public class eventAnalysis implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("eventEffectiveness")
+	@org.kie.api.definition.type.Label(value = "eventEffectiveness")
 	private java.lang.String eventEffectiveness;
-	@org.kie.api.definition.type.Label("eventResponsePayload")
+	@org.kie.api.definition.type.Label(value = "eventResponsePayload")
 	private java.lang.String eventResponsePayload;
 
 	public eventAnalysis() {
@@ -38,11 +38,4 @@ public class eventAnalysis implements java.io.Serializable {
 		this.eventResponsePayload = eventResponsePayload;
 	}
 
-	@Override
-	public String toString() {
-		return "eventAnalysis{" +
-				"eventEffectiveness='" + eventEffectiveness + '\'' +
-				", eventResponsePayload='" + eventResponsePayload + '\'' +
-				'}';
-	}
 }
