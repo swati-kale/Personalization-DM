@@ -6,12 +6,24 @@ package com;
 
 public class CustomerHistory implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerHistory() {
-    }
+	@org.kie.api.definition.type.Label("customerAttribute")
+	private String customerAttribute;
 
+	public CustomerHistory() {
+	}
 
+	public java.lang.String getCustomerAttribute() {
+		return this.customerAttribute;
+	}
 
+	public void setCustomerAttribute(java.lang.String customerAttribute) {
+		this.customerAttribute = customerAttribute;
+	}
+
+	public CustomerHistory(java.lang.String customerAttribute) {
+		this.customerAttribute = customerAttribute;
+	}
 
 }
