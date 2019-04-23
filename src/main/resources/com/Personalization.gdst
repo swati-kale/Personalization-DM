@@ -44,7 +44,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>eventValue</factField>
           <fieldType>String</fieldType>
-          <operator>==</operator>
+          <operator>in</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
