@@ -27,6 +27,7 @@
           <header>Category</header>
           <constraintValueType>1</constraintValueType>
           <factField>eventCategory</factField>
+          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -42,6 +43,7 @@
           <header>Value</header>
           <constraintValueType>1</constraintValueType>
           <factField>eventValue</factField>
+          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -53,8 +55,8 @@
       <entryPointName></entryPointName>
     </Pattern52>
     <Pattern52>
-      <factType>TrainingModel</factType>
-      <boundName>trainingModel</boundName>
+      <factType>CustomerHistory</factType>
+      <boundName>customerHistory</boundName>
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
@@ -64,10 +66,11 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>199</width>
-          <header>Model</header>
+          <width>266</width>
+          <header>Customer Attribute</header>
           <constraintValueType>1</constraintValueType>
-          <factField>modelName</factField>
+          <factField>customerAttribute</factField>
+          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -75,15 +78,16 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
-            <dataType>NUMERIC_INTEGER</dataType>
+            <dataType>BOOLEAN</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Confidence</header>
+          <header>Attribute Check</header>
           <constraintValueType>1</constraintValueType>
-          <factField>confidence</factField>
-          <operator>&gt;</operator>
+          <factField>value</factField>
+          <fieldType>Boolean</fieldType>
+          <operator>==</operator>
           <parameters/>
           <binding></binding>
         </condition-column52>
@@ -159,10 +163,10 @@
         <type>com.Event</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.TrainingModel</type>
+        <type>com.eventAnalysis</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.eventAnalysis</type>
+        <type>com.CustomerHistory</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
@@ -198,8 +202,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>75</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -241,8 +246,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>50</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -284,8 +290,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>45</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -327,8 +334,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>70</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -370,8 +378,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>55</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
