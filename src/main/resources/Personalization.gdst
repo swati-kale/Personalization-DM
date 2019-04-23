@@ -54,33 +54,6 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
-    <Pattern52>
-      <factType>CustomerHistory</factType>
-      <boundName>customerHistory</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Customer Attribute</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>customerAttribute</factField>
-          <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
   </conditionPatterns>
   <actionCols>
     <insert-fact-column52>
@@ -181,11 +154,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>ALERT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -215,11 +183,6 @@
       </value>
       <value>
         <valueString>AIRLINE_PURCHASE</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -257,11 +220,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>OFFER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -295,11 +253,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>ALERT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -329,11 +282,6 @@
       </value>
       <value>
         <valueString>PAYMENT_FAILURE</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
