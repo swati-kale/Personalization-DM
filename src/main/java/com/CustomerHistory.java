@@ -11,8 +11,6 @@ public class CustomerHistory implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("customerAttribute")
 	private String customerAttribute;
 
-	private java.lang.Boolean value;
-
 	public CustomerHistory() {
 	}
 
@@ -24,18 +22,8 @@ public class CustomerHistory implements java.io.Serializable {
 		this.customerAttribute = customerAttribute;
 	}
 
-	public java.lang.Boolean getValue() {
-		return this.value;
-	}
-
-	public void setValue(java.lang.Boolean value) {
-		this.value = value;
-	}
-
-	public CustomerHistory(java.lang.String customerAttribute,
-			java.lang.Boolean value) {
+	public CustomerHistory(java.lang.String customerAttribute) {
 		this.customerAttribute = customerAttribute;
-		this.value = value;
 	}
 
 }
