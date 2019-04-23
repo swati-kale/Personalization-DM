@@ -66,27 +66,11 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>266</width>
+          <width>100</width>
           <header>Customer Attribute</header>
           <constraintValueType>1</constraintValueType>
           <factField>customerAttribute</factField>
           <fieldType>String</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>BOOLEAN</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Attribute Check</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>value</factField>
-          <fieldType>Boolean</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding></binding>
@@ -197,14 +181,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>CUSTOMER_GOOD_STANDING</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -241,14 +219,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>OFFER_UPGRADE</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -285,14 +257,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>HIGH_BALANCE_DEBT</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -329,14 +295,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>DISSATISFACTION_QUOTIENT</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -373,14 +333,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>DELINQUENCY_INDEX</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
