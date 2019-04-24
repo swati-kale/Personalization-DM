@@ -105,7 +105,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>332</width>
+      <width>460</width>
       <header>Response PayLoad</header>
       <factType>eventAnalysis</factType>
       <boundName>eventanalysis</boundName>
@@ -191,7 +191,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Late Payment Waiver</valueString>
+        <valueString>You have been a valued customer, hence the late payment fee has been waived</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -229,7 +229,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Premium Card Upgrade</valueString>
+        <valueString>Upgrade to Gold Premium Card today and enjoy airline benifits</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -267,7 +267,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Balance Transfer offer</valueString>
+        <valueString>Consider making use of our Balance Transfer option today.</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
