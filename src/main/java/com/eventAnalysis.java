@@ -37,5 +37,16 @@ public class eventAnalysis implements java.io.Serializable {
 		this.eventEffectiveness = eventEffectiveness;
 		this.eventResponsePayload = eventResponsePayload;
 	}
+	
+	public boolean equals(Object obj) 
+    {
+        eventAnalysis event = (eventAnalysis)obj;
+        return event.getEventResponsePayload().equals(this.getEventResponsePayload());
+    }
+    public int hashCode() 
+    {
+     return 1;   
+    }
+
 
 }
