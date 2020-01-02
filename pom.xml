@@ -56,4 +56,19 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>maven-DM</id>
+      <name>maven-DM</name>
+      <url><distributionManagement>
+    <repository>
+      <id>maven-DM</id>
+      <name>maven-DM</name>
+      <url>http://nexus-nexus.app.middleware.ocp.cloud.lab.eng.bos.redhat.com/repository/maven-DM/</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement></url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
 </project>
